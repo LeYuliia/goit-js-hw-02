@@ -1,8 +1,6 @@
 const logItems = function(array) {
-  for (let i = 0; i < logItems.length; i += 1)
-    for (const item of array) {
-      console.log(`${(i = i + 1)} - ${item}`);
-    }
+  for (let i = 0; i < array.length; i += 1)
+      console.log(`${i+1} - ${array[i]}`);
 };
 
 logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);

@@ -1,8 +1,6 @@
 const formatString = function(string) {
-  for (const str of string) {
     const result = string.length > 40 ? `${string.slice(0, 41)}...` : string;
     return result;
-  }
 };
 
 //Вызов
